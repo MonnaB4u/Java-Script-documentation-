@@ -95,6 +95,33 @@ function numberLength(len) {
 const result = numberLength(5)
 
 ````
+## Object in Java-Script
+### In real life everything we have seen all are one kind of Objects . Objects are variables too. But objects can contain many values. 
 
+```
+const Student = {
+    name: "Monna",
+    age: 23,
+    dresses: ["shirt", "pants", "shoes", "bag"]
+}
+```
 
+### 3 ways to access Object property
+
+ 1. direct via property
+ 2. accessed via property age String
+ 3. accessed via property dress in a variabl
+
+```
+const Student = {
+    name: "Monna",
+    age: 23,
+    dresses: ["shirt", "pants", "shoes", "bag"]
+}
+const dress='dresses'
+console.log(Student.name)   // direct via property
+console.log(Student['age']) // accessed via property age String
+console.log(Student[dress]) // accessed via property dress in a variable
+
+```
 
