@@ -95,7 +95,7 @@ function numberLength(len) {
 const result = numberLength(5)
 
 ````
-## Object in Java-Script
+## 6 Object in Java-Script
 ### In real life everything we have seen all are one kind of Objects . Objects are variables too. But objects can contain many values. 
 
 ```
